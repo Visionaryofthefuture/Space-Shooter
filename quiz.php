@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("localhost", "soumyajit-das", "Prady@910", "WST");
+$conn = new mysqli("localhost", "soumyajit-das", "Password hidden", "WST");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
